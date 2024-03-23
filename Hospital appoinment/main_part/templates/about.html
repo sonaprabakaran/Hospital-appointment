@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../static/about/style1.css">
+</head>
+<body>
+
+<div class="container">
+  <form action="/about" method="POST">
+    <div class="nav-header">
+      <ul class="nav-list">
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+      </ul>
+      </div>
+<div class="about-section">
+  <h1>We Provide Medical Service</h1>
+  <h1>That You Can Trust</h1>
+  <p>The hospital is a vital institution providing medical care, diagnostics, and treatment to individuals in need.</p>
+  <p>It houses various medical professionals and equipment to address diverse health concerns.</p>
+  <p> Its mission revolves around ensuring patient well-being and recovery through compassionate and expert care.
+  </p>
+
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Primary Care</h2>
+        
+        <p>Primary care encompasses essential healthcare services provided by general practitioners, nurses, and other healthcare professionals, focusing on preventive care, health promotion, and initial diagnosis and treatment of common medical conditions.</p>
+        
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Emergency Case</h2>
+        <p>Emergency cases involve critical medical situations requiring immediate attention, such as severe injuries, cardiac events, respiratory distress, or life-threatening conditionsQuick and decisive action by healthcare professionals in emergency</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Online Appointment</h2>
+        <p>Online appointment systems enable individuals to schedule appointments with healthcare providers conveniently through web-based platforms or mobile applications. These systems streamline the booking process, allowing patients to select preferred dates and times. </p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h3>Copyright @ hospitalform.com | 2023</h3>
+</div> 
+
+</body>
+</html>
